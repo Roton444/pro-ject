@@ -1,0 +1,314 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* Common CSS END */
+
+#main-header{
+    padding-bottom: 50px;
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    padding-top: 50px;
+}
+.header-item{
+    display: flex;
+    justify-content: space-between;
+}
+.header-item a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+    color: #131313;
+    transition: all linear .3s;
+}
+.header-item a:hover{
+    color: #ff900e;
+}
+.header-item ul{
+    display: flex;
+    align-items: center;
+}
+.header-item ul li{
+ list-style: none;
+ margin-right: 30px;
+ transition: all linear .3s;
+}
+.header-item ul li:last-child{
+    margin-right: 0;
+}
+.header-item ul li:hover a{
+    color: #ff900e;
+}
+.header-item ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #131313;
+}
+.banner-item{
+    margin-top: 100px;
+    text-align: center;
+}
+.banner-item h1{
+font-weight: 600;
+font-size: 45px;
+text-align: center;
+color: #131313;
+margin-bottom: 30px;
+}
+.banner-item p{ 
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+width: 865px;
+margin: 0 auto;
+}
+.btn{
+padding: 18px 20px;
+background: #ff900e;
+border-radius: 8px;
+border: none;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.btn a{
+font-weight: 500;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #ffffff;
+text-decoration: none;
+}
+img{
+    width: 900px;
+    height: 450px;
+    
+}
+/*-------Feture CSS Start-------*/
+#feture{
+margin-top: 85px;
+margin-bottom: 85px;
+}
+.feture-item{
+display: flex;
+justify-content: space-around;
+}
+.feture-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
+}
+.feture-left img{
+    width: 200px;
+    height: 200px;
+    margin-right: 24px;
+    margin-top: 24px;
+}
+.feture-right{
+    margin-left: 55px;
+    margin-top: 145px;
+}
+.feture-right h2{
+    font-weight: 500;
+    font-size: 32px;
+    color: #727272;
+}
+.feture-right h2 b{
+    color: #131313;
+}
+.feture-right h2 span{
+    color: #ff900e;
+    font-weight: 700;
+    font-size: 32;
+}
+.feture-right p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding-right: 50px;
+}
+
+/*-- -----Exprience CSS Start----- --*/
+
+.exprience-right img{
+    width: 400px;
+    height: 565px;
+}
+#exprience{
+margin-bottom: 90px;
+}
+.exprience-item{
+    display: flex;
+    justify-content: space-between
+}
+.exprience-left{
+margin-right: 145px;
+}
+.exprience-header{
+    display: flex;
+
+}
+.border{
+    background: #ff900e;
+    width: 5px;
+    border-left: 5px solid #ff900e;
+    margin-right: 21px;
+}
+.exprience-header h2{
+font-weight: 700;
+font-size: 32px;
+line-height: 32px;
+color: #131313;
+}
+.exprience-left p{
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #727272;
+margin-top: 24px;
+margin-bottom: 10px;
+}
+.exprience-box{
+background: #ffffff;
+box-shadow: 9px 9px 15px rgba(0, 0, 0, .05);
+border-radius: 5px;
+padding: 5px 8px 5px 5px;
+margin-top: 20px;
+}
+.exprience-box h3{
+font-weight: 600;
+font-size: 20px;
+color: #131313;
+}
+.exprience-box p{
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #727272;
+margin-top: 5px;
+}
+.exprience-btn{
+    background: #ff900e;
+    border-radius: 5px;
+    padding: 45px 42px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-top: -75px;
+    margin-left: -65px;
+}
+.exprience-btn h6{
+    font-weight: 500;
+    font-size: 18px;
+}
+/*-- ----- Status Part Start ----- --*/
+#status{
+    margin-bottom: 180px;
+}
+.status-item{
+
+}
+.status-item h2{
+font-weight: 700;
+font-size: 20px;
+color: #131313;
+}
+.status-item p{
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #727272;
+margin-top: 5px;
+width: 542px;
+margin-bottom: 45px;
+}
+.status-all-box{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 100px;
+    text-align: center;
+}
+.status-box{
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+}
+.status-box img{
+    width: 45px;
+    height: 45px;
+}
+.status-box h3{
+font-weight: 700;
+font-size: 20px;
+color: #424242;
+margin-bottom: 5px;
+}
+.status-box h6{
+font-weight: 700;
+font-size: 10px;
+line-height: 15px;
+color: #727272;
+}
+/*-----------Footer CSS Start-------------*/
+#footer{
+    margin-bottom: 100px;
+}
+.footer-item{
+text-align: center;
+}
+.footer-item h2{
+font-weight: 700;
+font-size: 20px;
+color: #131313;
+}
+.footer-item p{
+font-weight: 400;
+font-style: 16px;
+line-height: 20px;
+margin: 0 auto;
+color: #727272;
+width: 542px;
+margin-top: 5px;
+}
+.footer-item img{
+width: 100px;
+height: 100px;
+}
+.footer-sponser{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+    margin-top: 40px;
+}
+.copyright-text{
+    background: #fff4e7;
+    background-repeat: 8px;
+    padding-top: 25px;
+    padding-bottom: 38px;
+    text-align: center;
+}
+.copyright-text p{
+    font-weight: 400;
+    font-style: 20px;
+    text-align: center;
+    color: #424242;
+}
